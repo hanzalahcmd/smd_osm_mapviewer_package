@@ -1,0 +1,16 @@
+name: osm_tile_viewer_example
+description: Example app demonstrating the osm_tile_viewer package.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  osm_tile_viewer:
+    path: ../   # points to the local package
+
+flutter:
+  uses-material-design: true
